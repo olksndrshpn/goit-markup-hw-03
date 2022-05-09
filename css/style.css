@@ -23,10 +23,14 @@ h1, h2, h3, h4, p, ul{
     align-items: center;
     justify-content: center;
 }
+.border{
+    border: 1px solid #ECECEC;
+}
 .item:last-child{
 margin-right: 0px;
 }
 .header-container{
+
     display: flex;
 align-items: center;
 }
@@ -56,7 +60,7 @@ width: 1200px;
 .header{
     background: #FFFFFF;
     display:inline;
-    
+
 }
 .hero-title{
     height: 120px;
@@ -81,6 +85,7 @@ letter-spacing: 0.03em;
 color: var(--title-color);
 }
 .subheader{
+    margin-bottom: 10px;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -121,7 +126,7 @@ margin-right: 50px;
     margin-right: 0px;
 }
 .button{
-    margin: 30px;
+    margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 32px;
@@ -162,8 +167,6 @@ padding-bottom: 25px;
     letter-spacing: 0.03em;
     margin-right: 93px;
     color: var(--button-bg-color);
-    padding-top: 25px;
-    margin-bottom: 20px;
     }
 
 .list{
@@ -177,6 +180,8 @@ letter-spacing: 0.02em;
 color: var(--title-color);
 }
 .footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: var(--main-bg-color)
 }
 
@@ -207,7 +212,7 @@ letter-spacing: 0.03em;
 color: var(--title-color);
 }
 .member-role{
-    padding-bottom: 30px;
+
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
@@ -217,7 +222,11 @@ color: var(--descp-color);
 
 
 }
+.member-information{
+    padding-bottom: 30px;
+}
 .filter-buttons{
+    margin-bottom: 50px;
   padding-left:0px ;
     justify-content: center;
     display: flex;
@@ -298,10 +307,9 @@ border: 1px solid #EEEEEE;
 box-sizing: border-box;
 margin-bottom: 30px;
 }
-.item-card:nth-child(7n){
-    margin-bottom: 0px;
-    
-    }
+.item-info{
+    padding-bottom: 20px;
+}
 .item-header{
    margin-bottom: 4px;
     font-size: 18px;
@@ -309,7 +317,7 @@ margin-bottom: 30px;
    letter-spacing: 0.06em;
     color: var(--title-color);}
     .item-name{
-        padding-bottom: 20px;
+        
         font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -347,6 +355,11 @@ color: #FFFFFF;
 }
 .items{
     margin-bottom: 20px;
+
+}
+.items-section{
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
   
 .contacts{
@@ -366,7 +379,6 @@ color: #FFFFFF;
     list-style: none;
     text-decoration: none;
     font-style: normal;
-    padding-bottom: 51px;
 }
 .contact{
     display: block;
@@ -398,10 +410,7 @@ color: var(--descp-color);
 .about-section{
     padding-top: 94px;
 }
-.filter-section{
-    padding-top: 94px;
-    padding-bottom: 50px;
-}
+
 .member-section{
     background-color:#F5F4FA;
 }
