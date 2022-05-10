@@ -15,7 +15,7 @@ body{
     font-style: normal;
     
 }
-h1, h2, h3, h4, p, ul{
+h1, h2, h3, h4, p, ul, li{
     margin:0;
 }
 .navbar{
@@ -165,8 +165,8 @@ padding-bottom: 25px;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    margin-right: 93px;
     color: var(--button-bg-color);
+    margin-bottom: 20px;
     }
 
 .list{
@@ -290,23 +290,26 @@ color: #FFFFFF;
 .item-list{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+   
     padding-left: 0px;
     flex-wrap: wrap;
  
 }
-.item-container{
-    padding-bottom: 94px;
+.item-card:nth-child(7n){
+    margin-bottom: 0px;
 }
+
 .item-card{
   
   width: 370px;
   height: 404px;
+  margin-bottom: 30px;
     list-style: none;
     background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
-margin-bottom: 30px;
+
 }
 .item-info{
     padding-top: 20px;
@@ -361,6 +364,7 @@ color: #FFFFFF;
 .items-section{
     padding-top: 94px;
     padding-bottom: 50px;
+   padding-bottom: 94px;
 }
   
 .contacts{
