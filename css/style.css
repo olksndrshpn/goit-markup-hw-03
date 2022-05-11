@@ -23,9 +23,7 @@ h1, h2, h3, h4, p, ul, li{
     align-items: center;
     justify-content: center;
 }
-.border{
-    border: 1px solid #ECECEC;
-}
+
 .item:last-child{
 margin-right: 0px;
 }
@@ -33,6 +31,7 @@ margin-right: 0px;
 
     display: flex;
 align-items: center;
+
 }
 .container{
 padding-right: 15px;
@@ -59,8 +58,7 @@ width: 1200px;
 
 .header{
     background: #FFFFFF;
-    display:inline;
-
+    border-bottom: 1px solid #ECECEC;
 }
 .hero-title{
     height: 120px;
@@ -290,26 +288,28 @@ color: #FFFFFF;
 .item-list{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-   
     padding-left: 0px;
     flex-wrap: wrap;
+    margin-bottom: -30px;
+    margin-right: -30px;
  
 }
-.item-card:nth-child(7n){
-    margin-bottom: 0px;
-}
+
 
 .item-card{
   
   width: 370px;
   height: 404px;
   margin-bottom: 30px;
-    list-style: none;
-    background: #FFFFFF;
+  margin-right: 30px;
+list-style: none;
+background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
 
+}
+.item-card:nth-child(n+7){
+margin-bottom: 0px;
 }
 .item-info{
     padding-top: 20px;
